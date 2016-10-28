@@ -1,3 +1,8 @@
 def calculate(str)
-  return eval(str)
+	
+	for x in str; 
+	p x
+	end
 end
+
+calculate 5
