@@ -1,8 +1,5 @@
 def calculate(str)
-	
-	for x in str; 
-	p x
-	end
+	array = str.split(%r{\s*})
 end
 
-calculate 5
+calculate('(5+10)*2')
