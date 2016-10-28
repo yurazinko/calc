@@ -1,3 +1,3 @@
 def calculate(str)
-  42
+  return eval(str)
 end
