@@ -9,7 +9,7 @@ def calculate(str)
     case char
     when *operators
       equation.push(char)
-    when /\d+/ 
+    when /\d+/  
       equation.push(char.to_i)
     end
   end
